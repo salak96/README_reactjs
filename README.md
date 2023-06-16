@@ -15,7 +15,41 @@ npm create vite@latest nama-project -- --template react
  ```
   npm install
  ```
+ ## Install react-router-dom 
+ 
+ ```
+ npm install react-router-dom
+ ```
 
+ -  Perbarui /src/App.jsx seperti berikut ini.
+
+ ```
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Dashboard from './components/Dashboard'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: 'about',
+    element: <About />,
+  },
+  {
+    path: 'dashboard',
+    element: <Dashboard />,
+  },
+])
+
+function App() {
+  return <RouterProvider router={router} />
+}
+
+export default App
+ ```
 ## Formatter pritter code
 
 ```
@@ -30,7 +64,8 @@ npm install --save-dev --save-exact prettier
 
 - Masukan isi .prittierrc.json
 
-``` {
+``` 
+{
 "tabWidth": 4,
 "singleQuote": true,
 "jsxSingleQuote": true,
