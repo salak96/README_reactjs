@@ -61,7 +61,10 @@ npm install --save-dev --save-exact prettier
 ```
 .prettierrc.json
 ```
-
+atau
+```
+npx .prettierrc.json init -p
+```
 - Masukan isi .prittierrc.json
 
 ``` 
