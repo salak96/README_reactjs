@@ -9,7 +9,8 @@ The React Framework for Production Next.js gives you the best developer experien
  - [Vite](https://vitejs.dev/guide/)
  
 ```
-npm create vite@latest nama-project -- --template react
+
+
 ```
 - Install node.module
  ```
@@ -146,6 +147,22 @@ Install my-project with yarn
 - Untuk membuka di browser
 ```
 http://localhost:5173/
+```
+## FontAwesome React
+- install this core package first
+```
+npm i --save @fortawesome/fontawesome-svg-core
+
+``
+- install first if you want to use solid icons and install second if you want to use regular icons
+```
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+```
+- install this react component to use fontawesome
+
+```
+npm i --save @fortawesome/react-fontawesome@latest
 ```
 
 ## 🚀 About Me
