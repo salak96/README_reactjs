@@ -9,7 +9,7 @@ The React Framework for Production Next.js gives you the best developer experien
  - [Vite](https://vitejs.dev/guide/)
  
 ```
-
+npm create vite@latest nama-project -- --template react
 
 ```
 - Install node.module
