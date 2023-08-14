@@ -9,7 +9,7 @@ The React Framework for Production Next.js gives you the best developer experien
  - [Vite](https://vitejs.dev/guide/)
  
 ```
-
+npm create vite@latest nama-project -- --template react
 
 ```
 - Install node.module
@@ -133,7 +133,7 @@ content: [
 ```
 import './index.css';
 ```
-##  Running React JS with Tailwind
+##  Running React JS with Tailwind 🍧🍦🍦
 
 Install my-project with npm
 
@@ -151,13 +151,15 @@ Install my-project with yarn
 ```
 http://localhost:5173/
 ```
-## FontAwesome React
+## FontAwesome React ✔✔🐱
 - install this core package first
+
 ```
 npm i --save @fortawesome/fontawesome-svg-core
+```
 
-``
-- install first if you want to use solid icons and install second if you want to use regular icons
+-  install first if you want to use solid icons and install second if you want to use regular icons
+
 ```
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/free-regular-svg-icons
