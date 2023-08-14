@@ -60,12 +60,13 @@ npm install --save-dev --save-exact prettier
 - Buat folder di root
 
 ```
-.prettierrc.json
+touch .prettierrc.json
 ```
 atau
 ```
-npx .prettierrc.json init -p
+.prettierrc.json
 ```
+
 - Masukan isi .prittierrc.json
 
 ``` 
